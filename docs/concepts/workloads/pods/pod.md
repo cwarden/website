@@ -140,7 +140,7 @@ simplified management.
 Pods aren't intended to be treated as durable entities. They won't survive scheduling failures, node failures, or other evictions, such as due to lack of resources, or in the case of node maintenance.
 
 In general, users shouldn't need to create pods directly. They should almost
-always use controllers even for singletons, for example,
+always use controllers even for singletons (for example,
 [Deployments](/docs/concepts/workloads/controllers/deployment/)).
 Controllers provide self-healing with a cluster scope, as well as replication
 and rollout management.
